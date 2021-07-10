@@ -4,6 +4,6 @@ THE CODE GIVEN CREATES AND SAVES A TENSORFLOW MODEL FOR CLASSIFYING IMAGES IN TH
 
 TO RUN THE CODE:
 
-1. DOWNLOAD DATA [HERE](http://madm.dfki.de/files/sentinel/EuroSAT.zip)
+1. DOWNLOAD DATA [HERE](https://github.com/phelber/EuroSAT)
 2. SPECIFY THE PATH TO DATAFROLDER IN "Dataset.py" > data_dir.
 3. RUN "classify.py"
