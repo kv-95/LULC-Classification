@@ -7,7 +7,7 @@ import keras
 model1 = tf.keras.models.load_model('Model/')
 
 #Checking for random image
-test_path = 'D:\MSc GIS\Sem 2\MIni project\Code\Land_Classify_Tensorflow\Test\ConfusetheModel02.jpg'
+test_path = 'test_image.jpg'
 img = keras.preprocessing.image.load_img(
     test_path, target_size=(dataset.img_height, dataset.img_width)
 )
