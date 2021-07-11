@@ -10,7 +10,7 @@ TO CREATE A NEW MODEL:
 
 TO CHECK AN IMAGE FOR ITS CLASSIFICATION (WITH EXSITING MODEL):
 
-1. Update line 10 test_path="path\to\image\image.jpg"
+1. Update line 10 in "check.py", test_path="path\to\image\image.jpg"
 2. RUN "check.py" (make sure you have model saved in a directory "Model/")
 
 
