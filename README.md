@@ -5,7 +5,7 @@ A sample model is included in the "Model/" directory.
 
 TO CREATE A NEW MODEL:
 
-1. SPECIFY THE PATH TO DATAFROLDER IN "Dataset.py" > data_dir.
+1. SPECIFY THE PATH TO DATA FOLDER IN "Dataset.py" > data_dir.
 2. RUN "classify.py"
 
 TO CHECK AN IMAGE FOR ITS CLASSIFICATION (WITH EXSITING MODEL):
