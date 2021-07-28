@@ -4,6 +4,10 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 
+gpus = tf.config.experimental.list_physical_devices('GPU')
+tf.config.experimental.set_memory_growth(gpus[0], True)
+tf.config.set_visible_devices(gpus[0], 'GPU')
+
 AUTOTUNE = tf.data.AUTOTUNE
 
 train_ds = dataset.train_ds.cache().shuffle(1000).prefetch(buffer_size=AUTOTUNE)
