@@ -1,17 +1,12 @@
-import dataset
 import model
-
-import keras
-import tensorflow as tf
-import numpy as np
 import matplotlib.pyplot as plt
 
 #Visualize Training results
-acc = model.history['accuracy']
-val_acc = model.history['val_accuracy']
+acc = model.history.history['accuracy']
+val_acc = model.history.history['val_accuracy']
 
-loss = model.history['loss']
-val_loss = model.history['val_loss']
+loss = model.history.history['loss']
+val_loss = model.history.history['val_loss']
 
 epochs_range = range(model.epochs)
 
@@ -30,4 +25,5 @@ plt.title('Training and Validation Loss')
 plt.show()
 
 #Save model
-model.save("Model/")
+model.model.save("Model/")
+
